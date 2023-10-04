@@ -1,7 +1,3 @@
-* {
-    
-}
-
 /*This is my
 first heading 
 just to remind
@@ -58,7 +54,8 @@ a {
 }
 
 a:hover {
-    background-color: lightgreen;
+    background-color:lightblue;
+    background-color: 
 }
 /* body {
     background-size: contain;
