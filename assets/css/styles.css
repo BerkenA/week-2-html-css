@@ -1,4 +1,20 @@
 body {
+    margin: 0;
+}
+
+header {
+    height: 64px;
+    background: yellowgreen;
+    display: flex;
+    align-items: center;
+    padding: 0 8px 0 8px;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    word-spacing: 16px;
+}
+
+body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -20,4 +36,23 @@ body {
     left: 30%;
     color: green;
     text-align: right;
+}
+
+header nav ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0px;
+}
+
+/* when you write it like this it tells you that i want to select the header, the nav inside it, the ul inside there, and then the li in there again. Like the son of the son of the son */
+/* header nav ul li */
+
+/* you can also do it like this. by assigning a class to the li and then select the class in CSS to make it how you want */
+.nav-link {
+    display: inline-block;
+}
+
+.active {
+    text-decoration: underline;
+    background-color: indianred;
 }

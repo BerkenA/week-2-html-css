@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            Day 4 week 2
+        </title>
+        <link rel="stylesheet" type="text/css" href="/assets/css/form.css">
+    </head>
+    <body>
+        <!-- This section is to take user information -->
+        <section>
+            <form action="/thank-you.html">
+                <label for="email">Email:</label>
+                <input type="email" name="my-email" id="email"/>
+
+                <label for="first-name">First name:</label>
+                <input type="text" name="first-name" id="first-name"/>
+                
+                <label for="user-password">Password:</label>
+                <input type="password" name="user-password" id="user-password"/>
+
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="8" cols="50"></textarea>
+
+                <!-- radio button is so that you can choose between buttons to press. Pay with this or this f.eks. both of them needs to have the same name. Here it is "color" the value is the color you select. Here it is red and blue -->
+                <span>Choose Color:</span>
+                <label>
+                    <input type="radio" name="color" value="red" checked/>
+                    Red
+                </label>
+                <label>
+                    <input type="radio" name="color" value="blue"/>
+                    Blue
+                </label>
+
+                <hr>
+                <span>Check your hobbies</span>
+                <label>
+                    <input type="checkbox" name="hobbies" value="hiking"/>
+                    Hiking
+                </label>
+
+                <label>
+                    <input type="checkbox" name="hobbies" value="swimming"/>
+                    Swimming
+                </label>
+                <hr/>
+
+            <div class="container">
+                <label for="car">Choose a car make</label>
+                <select name="car" id="car">
+                    <option>Volkswagen</option>
+                    <option>BMW</option>
+                    <option>Subaru</option>
+                    <option>Honda</option>
+                </select>
+            </div>
+            <fieldset>
+                <legend>
+                    User contact details
+                </legend>
+                <label>
+                    <input type="checkbox" name="hobbies" value="hiking"/>
+                    Hiking
+                </label>
+                <label>
+                    <input type="checkbox" name="hobbies" value="swimming"/>
+                    Swimming
+                </label>
+            </fieldset>
+                <button type="submit">Subscribe</button>
+            </form>
+            <form>
+                
+            </form>
+        </section>
+    </body>
+</html>
